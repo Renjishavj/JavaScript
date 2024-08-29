@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">This is a sample text.</p>
+    
+    <button type="button" ondblclick="changeTextAndStyle()">Click Me!</button>
+
+    <script>
+        function changeTextAndStyle() {
+            var element = document.getElementById('demo');
+            element.style.fontSize = '35px';
+            element.style.color = 'red';
+            element.textContent = 'Text has been changed!';
+        }
+    </script>
+</body>
+</html>
