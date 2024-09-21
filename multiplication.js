@@ -9,9 +9,17 @@
 
 let num=3
 const mult = (num) => {
-    console.log(`multiplication table of ${num}`)
+    
     for(let i=0;i<=10;i++){
         console.log(`${num} x ${i}=${num*i}`)
     }
 }
 mult(num)
+
+// const mult = () => {
+//     for(let i=0;i<=10;i++){
+//         console.log(`${i} x ${i}=${i*i}`)
+//     }
+// }
+// mult()
+

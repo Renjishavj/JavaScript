@@ -1,10 +1,6 @@
-
 const date = new Date();
-
 const currentMonth = date.getMonth();
-
 let monthName;
-
 switch (currentMonth) {
   case 0:
     monthName = "January";
